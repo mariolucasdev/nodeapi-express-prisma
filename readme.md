@@ -43,8 +43,7 @@ GET users - Get all users
 
 GET users/:id - Get user by id
 
-POST users - Store user (name, email,
-password)
+POST users - Store user (name, email, password)
 
 PUT users/:id - Update user (name, email, password)
 
