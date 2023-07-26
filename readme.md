@@ -7,7 +7,7 @@ Api Node JS with express and prisma.
 clone repository
 
 ```
-git clone https://github.com/mariolucasdev/nodeapi-express-prisma
+git clone https://github.com/mariolucasdev/nodeapi-express-prisma.git
 
 ```
 
