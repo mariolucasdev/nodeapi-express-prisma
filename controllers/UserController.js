@@ -39,6 +39,8 @@ UserController.store = async (req, res) => {
         }
     });
 
+    delete user.password;
+
     res.status(201).json(user);
 }
 
@@ -67,6 +69,8 @@ UserController.update = async (req, res) => {
             password
         }
     });
+
+    delete userUpdated.password;
 
     res.json(userUpdated);
 }
